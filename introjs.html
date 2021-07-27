@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introjs</title>
+    <script>
+       // document.write("Hello JS");
+       function fun1(){
+     var divData=  document.getElementById("div1").innerText;
+     alert(divData);
+       }
+       function add(){
+        if(document.getElementById("num1").value.length>0 &&document.getElementById("num2").value.length>0 ){
+
+      
+           
+           
+
+           var n1=document.getElementById("num1").value;
+           var n2=document.getElementById("num2").value;
+           if(isNaN(n1)||isNaN(n2)){
+               document.getElementById("result").innerHTML="only numbers allowed";
+           }
+           else{
+               
+           
+          
+
+           
+           var sum=parseInt(n1)+parseInt(n2);
+           //alert(sum);
+          // document.getElementById("result").innerText=sum
+         // document.getElementById("result").innerText="<h1>hello</h1>";
+         document.getElementById("result").innerHTML="<h1>sum="+sum+"</h1>";
+           }
+
+       }
+    
+        else{
+            document.getElementById("result").innerHTML="<font colour='red'>please enter values</font>";
+        }
+
+       }
+    </script>
+</head>
+<body>
+    
+ 
+ <div>
+     <label for="num1">Number1</label>
+     <input type="text" id="num1"/>
+     <label for="num2">Number2</label>
+     <input type="text" id="num2"/>
+     <div id="result"></div>
+     <button type="button" onclick="add()"> ADD</button>
+ </div>
+</body>
+</html>

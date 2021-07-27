@@ -1,0 +1,40 @@
+*{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+
+p{
+    color: green;
+    font-size: 30px;
+}
+/*div{
+    color: aqua;
+    font: 20px Arial bold italic;
+    background-color: black;
+}*/
+
+#div1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: aqua;
+
+}
+.c1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: double;
+    color: azure;
+    font-size: 30px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float:left;
+}
+a{
+    padding:10px;
+    text-decoration: none;
+    background-color:orange ;
+    color: black;
+}

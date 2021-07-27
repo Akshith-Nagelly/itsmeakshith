@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            width:80%;
+            margin:auto;
+            border:2px solid black
+        }
+    </style>
+</head>
+<body>
+    <h3> this is registration page</h3>
+    <div id="div1">
+        <form style="text-align: center; padding:15px;">
+            First Name:<input type="text"/><br><br>
+            Last Name:<input type="text"/><br><br>
+            gender:<input type="radio" name="gender"/>male <input type="radio" name="gender"/>female <br><br>
+            date of birth:<input type="date"/><br><br>
+            email:<input type="email"/><br>,<br>
+            phone number:<input type="tel"/><br><br>
+            city:
+            <select>
+                <option selected> select a city</option>
+                <option value="hyd"> hyderabad</option>
+                <option> mumbai</option>
+                <option> bangalore</option>
+                <option> chennai</option>
+                <option> delhi</option>
+            </select>
+            <br><br>
+            prefered location(max of 3):<br>
+            <select multiple>
+                <option > select a city</option>
+                <option value="hyd"> hyderabad</option>
+                <option> mumbai</option>
+                <option> bangalore</option>
+                <option> chennai</option>
+                <option> delhi</option>
+            </select>
+            <br><br>
+            contact adress:<br>
+            <textarea rows="10" cols="100">
+
+            </textarea>
+            <br><br>
+            create password:
+            <input type="password"/> <br><br>
+            confirm password:
+            <input type="password"/> <br><br>
+
+            upload resume:
+            <input type="file"/>
+            <br><br>
+            skills:
+            java<input type="checkbox"/>
+            .net<input type="checkbox"/>  python<input type="checkbox"/> 
+
+        </form>
+        <br><br>
+    </div>
+</body>
+</html>
